@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Inria Serif', serif;
+    
+}
+/* ******* header START********/
+.header{
+    width: 100%;
+    height: 130px;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    
+}
+.logo__name{
+    line-height: 25px;
+    font-size: 20px;
+    margin: 15px;
+
+}
+.logo__name span{
+    font-size: 8px;
+    color: #bdb5af;
+}
+.link ul{
+    display: flex;
+    justify-content: center;
+    
+}
+.link li{
+    margin-left: 40px;
+    line-height: 50px;
+    letter-spacing:3px;
+    font-size: 8px;
+    cursor: pointer;
+    transition: 0.3s
+}
+.link span{
+    color: #bdb5af;
+}
+.link li:hover{
+    color: #d1b678;
+}
+
+/* ******* header END********/
+
+.title{
+    width: 100%;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+/* ******* Hero START********/
+
+.hero{
+    width: 100vw;
+    display: flex;
+    margin-bottom: 100px;
+}
+.hero__img{
+    width: 50%;
+   
+}
+.hero__img img{
+    width: 100%;
+    vertical-align: middle;
+}
+.hero__main{
+    width: 50%;
+    background-color: #bdb5af;
+}
+.main__txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40%;
+    color: #fffaee;
+}
+.main__txt .h3{
+    font-size: 1.7em;
+    font-weight: bold;
+    line-height: 2em;
+    margin-bottom: 30px;
+}
+ .main__txt p{
+    font-size: 1.7em;
+    line-height: 2em;
+    letter-spacing: 10px;
+    margin-bottom: 30px;   
+} 
+
+.main__txt .btn{
+    text-align: center;
+    padding: 25px;
+    background-color: #fffaee;
+    text-decoration: none;
+    color: #d1b678;
+    letter-spacing: 8px;
+    transition:  0.5s;
+}
+.main__txt .btn:hover{
+    color: #FFF;
+    background: #d1b678;
+}
+
+
+
+/* ******* Hero EDN********/
+
+
+/* *******container START********/
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    
+}
+.item{
+    width: 370px;
+    height: 650px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    text-align: center;
+    transform: translateY(0);
+    transition: 0.5s;
+}
+.img__pic img{
+    width: 100%;
+    vertical-align: middle;
+}
+.item .txt h4{
+    line-height: 2.5em;
+    font-weight: 900;
+    
+}
+.item .txt{
+    position: relative;
+}
+.item .txt p{
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding: 10px;
+    position: relative;
+    
+}
+.item .txt:before{
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top: 50px solid transparent;
+    border-left: 185px solid #FFF;
+    border-right: 185px solid #FFF;
+    transform: translateY(-100%);
+}
+.item:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 20px #ccc;
+}
+
+/* *******container EDN********/
