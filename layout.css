@@ -2,14 +2,13 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    font-family: 'Inria Serif', serif;
+    font-family: 'PT Serif', serif;
     
 }
 /* ******* header START********/
 .header{
     width: 100%;
     height: 130px;
-    font-family: 'PT Serif', serif;
     text-align: center;
     
 }
@@ -167,3 +166,129 @@
 }
 
 /* *******container EDN********/
+
+/* *******Two Box Start********/
+.two__box{
+    width: 100vw;
+    display: flex;
+    
+}
+.box{
+    width: 500px;
+    padding:  50px;
+    margin: auto;
+   
+}
+.box__img img{
+    width: 100%;   
+}
+
+.box__text h1{
+    text-align: center;
+    padding: 10px;
+}
+.box__text p{
+    font-size: 14px;
+}
+.box__text a{
+    display:block;
+    text-align: center;
+    margin-top: 8px;
+    padding: 10px;
+    background-color: #fffaee;
+    color: #d1b678;
+    letter-spacing: 8px;
+    transition:  0.5s;
+}
+.box__text > .btn{
+    color: #000;
+    text-decoration: none;
+}
+.box__text .btn:hover{
+    color: #FFF;
+    background: #d1b678;
+}
+
+/* *******Two Box End********/
+
+
+/* ******* Catact Start********/
+.contact__title{
+    font-size: 36px;
+    margin: 40px;
+    text-align: center;
+}
+.contact{
+    width: 100vw;
+}
+.contact__main{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.contact__main .contact__img{
+    width: 60%;
+}
+.contact__img img{
+    width: 100%;
+}
+.contact__text{
+    background-color: #fffaeec5;
+    position: absolute;
+    right: 90px;
+    width: 40%;
+    padding: 50px;
+    z-index: 1;
+}
+.contact__main .contact__text p{
+    font-size: 14px;
+}
+.contact__text a{
+    margin-top: 40px;
+    display: inline;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+    
+}
+
+/* ******* Catact End**********/
+
+/* ******* Footer Start **********/
+.footer{
+    width: 100vw;
+    border-top: 1px solid #bdb5af;
+    height:150px;
+    margin-top: 50px;
+}
+.footer__main{
+    text-align: center;
+}
+.footer__main .media{
+    margin-top: 20px;
+}
+.media i{
+    margin: 8px;
+}
+.footer__main .form{
+    margin-top: 10px;
+}
+.form .form__text{
+    width: 220px;
+    height: 25px;
+}
+.form__btn{
+    padding: 8px;
+    color: #FFF;
+    background-color: #313b43;
+}
+.footer__main > p{
+    padding: 10px;
+    font-size: 10px;
+}
+
+
+
+/* ******* Footer End **********/
+
